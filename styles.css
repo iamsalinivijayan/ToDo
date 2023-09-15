@@ -1,0 +1,91 @@
+
+body{
+    background-color: #C3ACD0;
+    color: black;
+}
+
+button:hover, button:focus, .button:hover{
+    background-color: #674188;
+}
+
+button{
+    border-color: #674188;
+    background-color: #C3ACD0;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    padding:.25%;
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar{
+    width: 100%;
+}
+.formControl{
+    border-radius: 10px;
+}
+
+.formControl:hover, .navbar{
+    background-color: #C3ACD0;
+    
+}
+
+.button{
+    border-color: #674188;
+    background-color: #C3ACD0; 
+}
+
+#todolistContent{
+    background-image: linear-gradient(to left,#5e377f , #674188, #895ab2, #a876d3, #C3ACD0);
+}
+
+#logoutButton{
+    border:2px solid #674188;
+    height: .8cm;
+    position: absolute;
+    left: 83%;
+}
+
+#taskbutton{
+    position:absolute;
+    left: 68%;
+}
+
+#todoList{
+    padding: 1% 2% 1%;
+}
+
+#checkUncheckButton{
+    position:fixed;
+    top: 50%;
+    left: 70%;
+}
+
+input[type="checkbox"]:checked {
+    background-color: black;
+    border: 2px solid #674188;
+    
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #C3ACD0; 
+    border: 2px solid #674188; 
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
